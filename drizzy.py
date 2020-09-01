@@ -9,7 +9,7 @@ from threading import Thread
 import playsound
 import queue
 import socket
-server_ip = '192.168.43.93'
+server_ip = '************'
 server_port = 80
 soc = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 soc.connect((server_ip, server_port))
